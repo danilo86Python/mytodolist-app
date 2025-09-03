@@ -1,6 +1,9 @@
 prepare
-shower
 play
-fix
 write
 master python!
+anything
+example
+danilo python
+fix
+
