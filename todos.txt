@@ -1,9 +1,8 @@
 prepare
-play
 write
 master python!
 anything
 example
-danilo python
-fix
-
+fixfix danilo
+carro
+play
