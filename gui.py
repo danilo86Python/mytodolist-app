@@ -23,7 +23,7 @@ window = sg.Window('My To-Do App',
                    font=('Helvetica', 12))
 
 while True:
-    event, values = window.read(timeout=200)
+    event, values = window.read()
 
     if event == sg.WIN_CLOSED or event == "Exit":
         break
