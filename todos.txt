@@ -1,8 +1,6 @@
 prepare
 write
-master python!
-anything
 example
-fixfix danilo
-carro
 play
+fix
+master 1986master 1986
