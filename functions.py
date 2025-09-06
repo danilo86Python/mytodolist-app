@@ -1,19 +1,17 @@
-FILEPATH = 'todos.txt'
+# functions.py
 
-def get_todos(filepath=FILEPATH):
-    """ Read a text file and return the list of
-    to-do items.
-    """
-    with open(filepath, 'r') as file_local:
-        todos_local = file_local.readlines()
-    return todos_local
+def get_todos(filepath="todos.txt"):
+    """Lê o arquivo e retorna uma lista de tarefas (sem quebras de linha)."""
+    with open(filepath, 'r') as file:
+        todos = file.readlines()
+    return [todo.strip() for todo in todos if todo.strip()]
 
 
-def write_todos(todos_arg, filepath=FILEPATH):
-    """ Write the to-do items list in the text file."""
+def write_todos(todos, filepath="todos.txt"):
+    """Grava a lista de tarefas no arquivo, cada uma em uma linha."""
     with open(filepath, 'w') as file:
-        file.writelines(todos_arg)
-
+        for todo in todos:
+            file.write(todo + "\n")
 
 
 if __name__ == '__main__':
