@@ -45,7 +45,7 @@ while True:
                 continue
 
             new_todo = input('Enter new todo: ')
-            todos[number] = new_todo + '\n'
+            todos[number] = new_todo
             functions.write_todos(todos)
             print(f"Todo #{number + 1} updated.")
 

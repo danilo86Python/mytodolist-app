@@ -1,4 +1,0 @@
-prepare
-write
-play
-fix
