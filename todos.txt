@@ -2,4 +2,6 @@ prepare
 write
 play
 fix
-
+clean the bag
+fix the computer
+get paper
