@@ -10,7 +10,7 @@ while True:
 
     if user_action.startswith('add'):
         todo = user_action[4:].strip()
-        if not todo:  # Check if input is empty after "add"
+        if not todo:  # check if input is empty after "add"
             print("Please enter a todo item after 'add'")
             continue
 
@@ -21,7 +21,7 @@ while True:
 
     elif user_action.startswith('show'):
         todos = functions.get_todos()
-        if not todos:  # Check if list is empty
+        if not todos:  # check if list is empty
             print("No todos found. Add some todos first!")
             continue
 
@@ -59,7 +59,7 @@ while True:
             number = number - 1
 
             todos = functions.get_todos()
-            if not todos:  # Check if list is empty
+            if not todos:  # check if list is empty
                 print("No todos to complete. Add some todos first!")
                 continue
 
