@@ -36,7 +36,7 @@ while True:
             number = number - 1
 
             todos = functions.get_todos()
-            if not todos:  # Check if list is empty
+            if not todos:  # check if list is empty
                 print("No todos to edit. Add some todos first!")
                 continue
 

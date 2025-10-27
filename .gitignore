@@ -1,3 +1,7 @@
-/.venv/
-.idea
-bonus
+.venv/
+.idea/
+bonus/
+experiments/
+files/
+journal/
+modules/

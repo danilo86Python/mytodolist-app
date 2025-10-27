@@ -12,10 +12,10 @@ def resource_path(relative_path):
     return os.path.join(base_path, relative_path)
 
 
-# caminho do arquivo de tarefas
+# Caminho do arquivo de tarefas
 TODO_FILE = resource_path("todos.txt")
 
-# cria o arquivo caso não exista
+# Cria o arquivo caso não exista
 if not os.path.exists(TODO_FILE):
     with open(TODO_FILE, "w") as file:
         pass
