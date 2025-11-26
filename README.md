@@ -105,8 +105,8 @@ Este projeto é de código aberto e pode ser utilizado livremente para fins educ
 ## 👨‍💻 Autor
 
 **Danilo Santos**  
-🐙 [GitHub](https://github.com/danilo86Python)  
-🌐 [Repositório do Projeto](https://github.com/danilo86Python/mytodolist-app.git)
+🐙 [GitHub](https://github.com/danilo-santos-python)  
+🌐 [Repositório do Projeto](https://github.com/danilo-santos-python/mytodolist-app.git)
 
 ---
 
